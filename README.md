@@ -16,10 +16,12 @@ Must pass HTML and CSS validators!
 HTML requirements:
 1. Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 2. At least three HTML form elements, written in conjunction with <label> tags and the for: attribute
+
 CSS requirements:
 1. One css file for resets (Meyers and the Form section of Normalize). A second css file for your unique css code.
 2. Use at least two min-width media queries to enhance your mobile-first styles for larger screens
 3. Much of your grade depends on design principles of typography, color, and material design that are discussed in this class. Make sure to demonstrate some grasp of these concepts.
+
 JavaScript requirements:
 1. Add at least one interactive JavaScript feature. Interactive means something other than changing class="nojs" to class="hasjs".
 2. JavaScript must load and achieve the intended behavior.
