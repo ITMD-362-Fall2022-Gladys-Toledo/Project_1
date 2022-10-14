@@ -27,6 +27,7 @@ JavaScript requirements:
 2. JavaScript must load and achieve the intended behavior.
 3. No JavaScript loaded directly in your HTML file
 4. Use the asynchronous attribute to attach JavaScript within your html head
+
 Git requirements:
 1. A Git repository with at least 20 commits and meaningful commit messages that accurately reflect each set of changes that you make
 2. GitHub repository must contain only the files and commits from this project
