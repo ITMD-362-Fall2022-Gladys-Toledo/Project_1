@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACMW - Mailing List</title>
-    <link rel="stylesheet" media="screen" href="css/meyers-and-normalize-form-reset.css">
-    <link rel="stylesheet" media="screen" href="css/screen.css">
-    <script src="js/site.js" async></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Gujarati:wght@500&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="main">
-        <div class="info">
-            <div class="imgLounge">
-              <img id="lounge" src="images/lounge.jpg" alt="20 ACMW members in a conference room, facing the camera" class="img-fluid">
-            </div>
-            <div class="main-text">
-              <p><strong>Association for Computing Machinery-Women</strong> provides support and mentorship to women in the Computer Science department at Illinois Tech. 
-                We have frequent meetings and events dedicated to creating a community for women in tech here. We want to provide a safe place for 
-                women from all backgrounds can learn together and feel supported. We also send students to conferences and hackathons from time to time, and are 
-                committed to providing career support to under-represented students. Although we started as CS majors, we welcome all students in computing or 
-                electrical engineering. 
-              </p>
-            </div>
-        </div>
 
-        <div class="formDiv">
-            
-            <form method="get" action="#null" name="mailingListForm" autocomplete="on" onsubmit="return checkForm()">
-                <div id="container">
-                  <div class="imgACMWLogo">
-                    <img id="acmwLogo" src="images/acmwLogo.png" alt="ACMW Logo">
-                </div>
-                <h1>ACMW - Mailing List</h1>
-                  <label for="name">Name</label>
-                  <input type="text" name="first_name" id="name" class="fontsize"  placeholder="First" autocomplete="given-name">
-                  <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name">
-                  <label for="email">Email</label>
-                  <input type="email" name="email_data" id="email" class="fontsize">
-                  <div id="submit">
-                    <input type="submit" value="Submit" class="fontsize">
-                  </div>
-                </div>
-            </form>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACMW - Mailing List</title>
+  <link rel="stylesheet" media="screen" href="css/meyers-and-normalize-form-reset.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <script src="js/site.js" async></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Gujarati:wght@500&family=Roboto+Slab:wght@200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="info">
+      <div class="imgLounge">
+        <img id="lounge" src="images/lounge.jpg" alt="20 ACMW members in a conference room, facing the camera"
+          class="img-fluid">
+      </div>
+      <div class="main-text">
+        <p><strong>Association for Computing Machinery-Women</strong> provides support and mentorship to women in the
+          Computer Science department at Illinois Tech.
+          We have frequent meetings and events dedicated to creating a community for women in tech here. We want to
+          provide a safe place for
+          women from all backgrounds can learn together and feel supported. We also send students to conferences and
+          hackathons from time to time, and are
+          committed to providing career support to under-represented students. Although we started as CS majors, we
+          welcome all students in computing or
+          electrical engineering.
+        </p>
+      </div>
     </div>
+
+    <div class="formDiv">
+
+      <form method="get" action="#null" name="mailingListForm" autocomplete="on" onsubmit="return checkForm()">
+        <div id="container">
+          <div class="imgACMWLogo">
+            <img id="acmwLogo" src="images/acmwLogo.png" alt="ACMW Logo">
+          </div>
+          <h1>ACMW - Mailing List</h1>
+          <label for="name">Name</label>
+          <input type="text" name="first_name" id="name" class="fontsize" placeholder="First" autocomplete="given-name">
+          <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name">
+          <label for="email">Email</label>
+          <input type="email" name="email_data" id="email" class="fontsize">
+          <div id="submit">
+            <input type="submit" value="Submit" class="fontsize">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
