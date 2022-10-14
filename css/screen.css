@@ -79,6 +79,7 @@ input[type=submit] {
 h1 {
   font-family: 'Noto Serif Gujarati';
   font-size: 1.5em;
+  padding-bottom: 10px;
 }
 
 p {
