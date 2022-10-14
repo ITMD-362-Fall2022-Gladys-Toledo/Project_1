@@ -20,7 +20,7 @@ label {
   }
   
   @media screen and (min-width: 510px) {
-    #container {
+    #container, .info {
       text-align: center;
       margin: 3% auto 0 auto;
       width: 65%;
@@ -48,6 +48,11 @@ label {
       float: right;
       margin-right: 3%;
     }
+    .info {
+        width: 450px;
+        float: left;
+        margin-right: 3%;
+      }
       
     .font-size {
       font-size: 1em;
