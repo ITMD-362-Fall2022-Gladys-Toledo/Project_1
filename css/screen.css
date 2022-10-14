@@ -6,10 +6,33 @@ label, .formDiv {
     margin: 0 1.5%;
   }
 
-  .lounge{
-    width: auto;
-    height: auto;
+  .main-text{
+    padding-top: 3%;
   }
+
+
+  .imgLounge img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    border-radius: 25px;
+    margin-top: .5%;
+    padding-top: .25%;
+  }
+
+  .imgACMWLogo img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10%;
+    
+    margin-top: .5%;
+    padding-top: .25%;
+  }
+
   
   input {
     box-sizing: border-box;
