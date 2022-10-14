@@ -5,6 +5,11 @@ label, .formDiv {
     width: 97%;
     margin: 0 1.5%;
   }
+
+  .lounge{
+    width: auto;
+    height: auto;
+  }
   
   input {
     box-sizing: border-box;
