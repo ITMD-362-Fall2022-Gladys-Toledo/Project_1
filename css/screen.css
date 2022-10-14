@@ -1,3 +1,17 @@
+body{
+  background-color: rgb(213, 242, 245);
+}
+
+.info{
+  background-color: rgba(255, 212, 225, 0.781);
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+
+.formDiv{
+  text-align: center;
+  font-size: 1.7em;
+} 
 label{
     display: block;
     text-align: center;
@@ -5,13 +19,14 @@ label{
     width: 97%;
     margin: 0 1.5%;
   }
-  .formDiv{
-    text-align: center;
-    font-size: 1.5em;
-  } 
+  strong{
+    font-weight: 900;
+  }
+  
 
   .main-text{
     padding-top: 3%;
+    text-align: left;
   }
 
 
@@ -43,8 +58,11 @@ label{
     width: 97%;
     padding: 12px 20px;
     margin: 8px 1.5%;
-    border: 1px solid #ccc;
     border-radius: 6px;
+    background-color: rgb(255, 235, 212);
+  }
+  input[type=submit]:hover{
+    background-color: rgb(157, 222, 121);
   }
   
   .fontsize {
@@ -76,12 +94,12 @@ label{
   
   @media screen and (min-width: 768px) {
     #container {
-      width: 47%;
+      width: 45%;
       float: right;
       margin-right: 3%;
     }
     .info {
-        width: 47%;
+        width: 45%;
         float: left;
         margin-left: 3%;
       }
