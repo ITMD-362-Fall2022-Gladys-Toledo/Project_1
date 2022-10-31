@@ -1,10 +1,13 @@
+html{
+  line-height: 1.2em;
+}
 body {
   background-color: rgb(213, 242, 245);
 }
 
 .info {
   background-color: rgba(255, 212, 225, 0.781);
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
 }
 
 .formDiv {
@@ -29,6 +32,9 @@ strong {
 .main-text {
   padding-top: 3%;
   text-align: left;
+  padding: 1.2em;
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 
@@ -87,15 +93,18 @@ p {
 
 @media screen and (min-width: 510px) {
 
-  #container,
-  .info {
+  #container {
     text-align: center;
-    margin: 3% auto 0 auto;
+    margin: 1% auto 0 auto;
     width: 65%;
+  }
+  .main{
+    margin: 0.694% auto;
   }
 
   .info {
     border-radius: 25px;
+    margin:auto;
   }
 
   .fontsize {
@@ -133,5 +142,11 @@ p {
 
   #submit {
     width: 26%;
+  }
+
+  .main-text{
+    font-size: 1.2em;
+    padding: 1.44em;
+    line-height: 1.44em;
   }
 }
