@@ -1,10 +1,9 @@
-html{
+html {
   line-height: 1.2em;
 }
 body {
   background-color: rgb(213, 242, 245);
 }
-
 .info {
   background-color: rgba(255, 212, 225, 0.781);
   /* padding: 10px 10px; */
@@ -19,7 +18,6 @@ https://www.modularscale.com/?1&em&1.2
   line-height: 1.2em;
   padding: 1.2em;
 }
-
 label {
   display: block;
   text-align: center;
@@ -29,7 +27,6 @@ label {
   font-family: 'Noto Sans JP', 'Helvetica';
   font-weight: 300;
 }
-
 .main-text {
   padding-top: 3%;
   text-align: left;
@@ -37,11 +34,9 @@ label {
   font-size: 1em;
   line-height: 1.2em;
 }
-
 strong {
   font-weight: 900;
 }
-
 .imgLounge img {
   display: block;
   height: auto;
@@ -52,18 +47,15 @@ strong {
   margin-top: .5%;
   padding-top: .25%;
 }
-
 .imgACMWLogo img {
   display: block;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   max-width: 20%;
-
   margin-top: .5%;
   padding-top: .50%;
 }
-
 input {
   box-sizing: border-box;
   width: 97%;
@@ -72,21 +64,17 @@ input {
   border-radius: 6px;
   background-color: rgb(255, 235, 212);
 }
-
 input[type=submit]:hover {
   background-color: rgb(157, 222, 121);
 }
-
 input[type=submit] {
-  font-family: 'Lato','Franklin Gothic';
+  font-family: 'Lato', 'Franklin Gothic';
   font-style: italic;
   background-color: rgb(255, 212, 249);
 }
-
 .fontsize {
   font-size: 1em;
 }
-
 h1 {
   font-family: 'Noto Serif Gujarati', 'Times New Roman';
   font-size: 1.44em;
@@ -94,83 +82,70 @@ h1 {
   font-weight: 500;
   /* padding-bottom: 10px; */
 }
-
 p {
   font-family: 'Roboto Slab', 'Garamond';
   font-weight: 400;
 }
 
+/* Media Screen: Min-Width 510px */
 @media screen and (min-width: 510px) {
-
   #container {
     text-align: center;
     margin: 1% auto 0 auto;
     width: 65%;
   }
-  .main{
+  .main {
     margin: 0.694% auto;
   }
-
   .info {
     border-radius: 25px;
-    margin:auto;
+    margin: auto;
   }
-
   .fontsize {
     font-size: 1.2em;
   }
-
   input {
     width: 100%;
   }
-
   #submit {
     width: fit-content;
     display: block;
     margin: 0 auto;
     font-size: 0.9em;
   }
-  .main-text{
+  .main-text {
     font-size: 1.2em;
     padding: 1.44em;
     line-height: 1.44em;
   }
-
   .formDiv {
     text-align: center;
     font-size: 1.2em;
     line-height: 1.44em;
     padding: 1.44em;
   }
-  label{
+  label {
     font-size: 1.44em;
   }
-  h1{
+  h1 {
     font-size: 1.728em;
     line-height: 2.074em;
   }
 }
 
+/* Media Screen: Min-Width 768px */
 @media screen and (min-width: 768px) {
   #container {
     width: 45%;
     float: right;
     margin-right: 3%;
   }
-
   .info {
     width: 45%;
     float: left;
     margin-left: 3%;
   }
-
   .font-size {
     font-size: 1em;
   }
-/* 
-  #submit {
-    margin: 0 4.3em;
-  } */
-
-  
 }
