@@ -13,12 +13,14 @@ body {
 .formDiv {
   text-align: center;
   font-size: 1em;
+  line-height: 1.2em;
+  padding: 1.2em;
 }
 
 label {
   display: block;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   width: 97%;
   margin: 0 1.5%;
   font-family: 'Noto Sans JP';
@@ -83,8 +85,9 @@ input[type=submit] {
 
 h1 {
   font-family: 'Noto Serif Gujarati';
-  font-size: 1.5em;
-  padding-bottom: 10px;
+  font-size: 1.44em;
+  line-height: 1.728em;
+  /* padding-bottom: 10px; */
 }
 
 p {
@@ -121,6 +124,25 @@ p {
     margin: 0 auto;
     font-size: 0.9em;
   }
+  .main-text{
+    font-size: 1.2em;
+    padding: 1.44em;
+    line-height: 1.44em;
+  }
+
+  .formDiv {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.44em;
+    padding: 1.44em;
+  }
+  label{
+    font-size: 1.44em;
+  }
+  h1{
+    font-size: 1.728em;
+    line-height: 2.074em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -144,9 +166,5 @@ p {
     width: 26%;
   }
 
-  .main-text{
-    font-size: 1.2em;
-    padding: 1.44em;
-    line-height: 1.44em;
-  }
+  
 }
